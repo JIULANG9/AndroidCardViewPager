@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--注意：自定义属性的名称必须和 自定义view的类名 一样在布局文件中才会有提示！-->
+    <declare-styleable name="CardViewpager">
+        <attr name="tabTextColor" format="color" />
+        <attr name="tabSelectTextColor" format="color" />
+        <attr name="tabTextSize" format="dimension" />
+        <!--值越大，弧度越大-->
+        <attr name="arcControlX" format="integer" />
+        <!--底层卡片背景颜色-->
+        <attr name="bottomCardColor" format="integer" />
+        <!--顶层卡片背景颜色-->
+        <attr name="topCardColor" format="integer" />
+        <!--底层卡片降低高度-->
+        <attr name="lowerHeight" format="integer" />
+    </declare-styleable>
+
+
+</resources>
